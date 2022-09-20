@@ -1,0 +1,95 @@
+Args:
+  batch_size: 32
+  drop_out: 0.15
+  epochs: 500
+  future: 24
+  imputer_choose: XGB
+  keep_col_percent: 20
+  learning_rate: 0.0007
+  max_iter: 10
+  monitor: val_loss
+  n_Dense: 128
+  n_LSTM: 128
+  n_neighbors: 3
+  past: 168
+  sequence_stride: 24
+  sequence_stride_val: 24
+  split_fraction: 0.8
+  step: 1
+  step_missing: 1
+  stop_early: 30
+base_model: model_encode_decode
+col:
+- PM2.5_S0000229-Quan Hoa
+- humidity_S0000229-Quan Hoa
+- temperature_S0000229-Quan Hoa
+- PM2.5_S0000310-Hang Trong
+- humidity_S0000310-Hang Trong
+- temperature_S0000310-Hang Trong
+- PM2.5_S0000210-Truong THCS Yen So
+- humidity_S0000210-Truong THCS Yen So
+- temperature_S0000210-Truong THCS Yen So
+- PM2.5_S0000153-Truong Tieu hoc Tran Quoc Toan
+- humidity_S0000153-Truong Tieu hoc Tran Quoc Toan
+- temperature_S0000153-Truong Tieu hoc Tran Quoc Toan
+- PM2.5_S0000137-Ngoc Khanh
+- humidity_S0000137-Ngoc Khanh
+- temperature_S0000137-Ngoc Khanh
+- PM2.5_S0000238-He thong lien cap Lomonoxop - Mam non
+- humidity_S0000238-He thong lien cap Lomonoxop - Mam non
+- temperature_S0000238-He thong lien cap Lomonoxop - Mam non
+max_x:
+- 216.5
+- 99.3
+- 45.91
+- 245.0
+- 102.0831527709961
+- 39.92
+- 270.0
+- 96.3
+- 41.27
+- 270.0
+- 100.0
+- 39.32
+- 270.0
+- 100.5456771850586
+- 41.35
+- 218.9
+- 100.0
+- 45.83
+max_y:
+- 270.0
+- 270.0
+- 270.0
+- 269.0
+min_x:
+- 2.6
+- 25.0
+- 10.9
+- 4.2
+- 37.9
+- 11.3
+- 2.4
+- 25.0
+- 9.4
+- 2.2
+- 25.0
+- 10.1
+- 2.7
+- 27.0
+- 9.5
+- 2.3
+- 25.0
+- 9.7
+min_y:
+- 2.6
+- 1.2
+- 1.23
+- 1.11
+name: 130822_12/
+path_list_imputer:
+- save_model/130822_12/model_imputer_input/XGB_imputer_slice_0.pkl
+path_list_imputer_out:
+- save_model/130822_12/model_imputer_output/XGB_imputer_slice_0.pkl
+path_model: save_model/130822_12/my_checkpoint.h5
+path_save_model_yaml: save_model/130822_12/model_save.yml

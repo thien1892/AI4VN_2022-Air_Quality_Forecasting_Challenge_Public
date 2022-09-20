@@ -1,0 +1,7 @@
+FOLDER_SUBMIT: ./submit/
+PATH_LOCATION_INPUT: ./data-train/location_input.csv
+PATH_LOCATION_OUTPUT: ./data-train/location_output.csv
+PATH_SAVE_MODEL: ./save_model/
+PUBLIC_TEST_INPUT_PATH: ./public-test/input/
+TRAIN_INPUT_PATH: ./data-train/input
+TRAIN_OUTPUT_PATH: ./data-train/output/
