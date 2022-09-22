@@ -61,3 +61,6 @@
  --path_data_test=./public-test/input/ \
  --conf_model=<Path yml file in your train model>
 ```
+
+## 4.Reference understanding LSTM autoencoder:
+- https://towardsdatascience.com/step-by-step-understanding-lstm-autoencoder-layers-ffab055b6352
